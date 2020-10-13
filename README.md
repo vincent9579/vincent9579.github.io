@@ -2,101 +2,101 @@
 ![](https://img.shields.io/github/languages/top/github-laziji/VBlog.svg?style=flat)
 ![](https://img.shields.io/github/stars/gitHub-laziji/VBlog.svg?style=social)
 
-## 目录
-- [简介](#简介)
+## 目錄
+- [簡介](#簡介)
 - [演示地址](#演示地址)
-- [项目源码](#项目源码)
-- [项目特点](#项目特点)
-- [更新记录](#更新记录)
+- [專案原始碼](#專案原始碼)
+- [專案特點](#專案特點)
+- [更新記錄](#更新記錄)
 - [快速使用](#快速使用)
 
-## 简介
+## 簡介
 
-博客可搭建在 GitHub Pages 上,
-文章数据储存于gist 中, 通过Github API 与数据进行交互, 实现无后台、可动态发布文章的博客系统
+部落格可搭建在 GitHub Pages 上,
+文章數據儲存於gist 中, 通過Github API 與數據進行互動, 實現無後臺、可動態發佈文章的部落格系統
 
-> 最近暂无更新计划
+> 最近暫無更新計劃
 
 
 ## 演示地址
 [https://github-laziji.github.io][1]
 
-## 项目源码
+## 專案原始碼
 [https://github.com/GitHub-Laziji/vblog][3]
 
-## 项目特点
+## 專案特點
 
-- [x] 基于 GitHub Pages 无需服务器
-- [x] 改进传统 GitHub Pages 不能动态发布的缺陷
-- [x] 包含电脑端和移动端
-- [x] 单页面应用
+- [x] 基於 GitHub Pages 無需伺服器
+- [x] 改進傳統 GitHub Pages 不能動態發佈的缺陷
+- [x] 包含電腦端和移動端
+- [x] 單頁面應用
 
 
-## 更新记录
+## 更新記錄
 
 #### 2018.5.19 更新
-- 增加使用帮助页面
-- 修复没有README.md时候出现的BUG
+- 增加使用幫助頁面
+- 修復沒有README.md時候出現的BUG
 
 #### 2018.5.16 更新
-- 显示粉丝数量
-- 增加粉丝详情页面
+- 顯示粉絲數量
+- 增加粉絲詳情頁面
 
 #### 2018.5.15 更新
-- 粉丝页面优化没有粉丝的情况
-- 修改有的图片越界
-- 配置增加是否自动播放音乐
-- 去除默认音乐
+- 粉絲頁面優化沒有粉絲的情況
+- 修改有的圖片越界
+- 配置增加是否自動播放音樂
+- 去除預設音樂
 
 #### 2018.5.13 更新
-- 电脑端增加社交圈, 查看粉丝和关注的用户
+- 電腦端增加社交圈, 檢視粉絲和關注的使用者
 
 #### 2018.5.11 更新
-- 移动端增加博客, 项目, 个人中心, 移动端和PC端共用API, 页面独立 
-- 修复文章样式奇怪的BUG
+- 移動端增加部落格, 專案, 個人中心, 移動端和PC端共用API, 頁面獨立 
+- 修復文章樣式奇怪的BUG
 
 #### 2018.5.8 更新
-- 增加配置选项
-- 改善富文本编辑器
+- 增加配置選項
+- 改善富文字編輯器
 
 #### 2018.5.6 更新
-- 状态栏增加音乐播放器
+- 狀態列增加音樂播放器
 
 #### 2018.5.5 更新
-- 增加了系统配置, 可以动态修改标题, 描述, 背景等配置 
+- 增加了系統配置, 可以動態修改標題, 描述, 背景等配置 
 
 #### 2018.5.2 更新
-- 增加博客和项目列表的分页 
-- 增加分享链接 
-- 改进Token绑定验证 
-- 修改代码结构 
+- 增加部落格和專案列表的分頁 
+- 增加分享鏈接 
+- 改進Token繫結驗證 
+- 修改程式碼結構 
 
 #### 2018.4.30 更新
-- 添加了从github获取个人开源项目的功能,显示信息更加全面,显示开源项目列表
-- Readme 从github动态获取
+- 新增了從github獲取個人開源專案的功能,顯示資訊更加全面,顯示開源專案列表
+- Readme 從github動態獲取
 
 #### 2018.4.29 更新
-- 增加个人信息的状态栏
-- 修复发图片博文的BUG 
+- 增加個人資訊的狀態列
+- 修復發圖片博文的BUG 
 
 
 
 ## 快速使用
-搭建博客只需2步
-- 点击github头像旁边的 "+" 号 选择 ```Import repository ```克隆地址填 ```https://github.com/GitHub-Laziji/GitHub-Laziji.github.io ```项目名填 ```你的用户名.github.io ```
-- 克隆完成后 修改文件 ```/static/configuration.json``` 中的 ```githubUsername``` 为自己的github用户名
+搭建部落格只需2步
+- 點選github頭像旁邊的 "+" 號 選擇 ```Import repository ```克隆地址填 ```https://github.com/GitHub-Laziji/GitHub-Laziji.github.io ```專案名填 ```你的使用者名稱.github.io ```
+- 克隆完成後 修改檔案 ```/static/configuration.json``` 中的 ```githubUsername``` 為自己的github使用者名稱
 
 
-类似演示地址其中 GitHub-Laziji 为我的用户名
+類似演示地址其中 GitHub-Laziji 為我的使用者名稱
 
 
-现在 ```https://你的用户名.github.io``` 就是你的个人博客了,例如[https://github-laziji.github.io][1]
+現在 ```https://你的使用者名稱.github.io``` 就是你的個人部落格了,例如[https://github-laziji.github.io][1]
 
 
 
-#### 获取Token
+#### 獲取Token
 
-在 ```github > settings > Developer settings > Personal access tokens```  勾选```gist``` 和 ```repo```权限 获取```Token```
+在 ```github > settings > Developer settings > Personal access tokens```  勾選```gist``` 和 ```repo```許可權 獲取```Token```
 
 
 ------
