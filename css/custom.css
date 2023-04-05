@@ -1,4 +1,4 @@
 .loading-img {
-    background: url("/css/loading.gif") no-repeat center center;
+    background: url("../img/loading.gif") no-repeat center center;
     background-size: cover;
 }
